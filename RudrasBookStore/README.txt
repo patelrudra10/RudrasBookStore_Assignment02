@@ -67,7 +67,17 @@ Added new project refrence of Utility project to main project
 In DataAccess project added the project refrence of Models and Utility project.
 1340
 Added new area named "Customer"
-
+1342
+Changed the routes in Startup.cs as we created Customer Area 
+Moved the HomeController.cs to the Area>Customer>Controller
+1345
+Defined the HomeController.cs to explicite that controller is in Customer Area
+1348
+Copied the ViewStart.cshtml and ViewImport.cshtml to Area folder.
+1350
+Modified the ViewStart.cshtml as per instructed by Andrew.
+1351
+I ran the application and horrah it works
 
 
 
