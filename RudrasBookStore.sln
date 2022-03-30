@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RudrasBookStore", "RudrasBookStore\RudrasBookStore.csproj", "{B70F6B72-459B-4E03-A837-98DF5E25FACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RudrasBookStore", "RudrasBookStore\RudrasBookStore.csproj", "{B70F6B72-459B-4E03-A837-98DF5E25FACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RudrasBooks.DataAccess", "RudrasBooks.DataAccess\RudrasBooks.DataAccess.csproj", "{C403DF6F-743A-4A2F-BEBF-2EF2295A9B4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RudrasBooks.DataAccess", "RudrasBooks.DataAccess\RudrasBooks.DataAccess.csproj", "{C403DF6F-743A-4A2F-BEBF-2EF2295A9B4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RudrasBooks.Models", "RudrasBooks.Models\RudrasBooks.Models.csproj", "{E987C9B3-82FD-40F3-AD17-154B943CAAA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RudrasBooks.Models", "RudrasBooks.Models\RudrasBooks.Models.csproj", "{E987C9B3-82FD-40F3-AD17-154B943CAAA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RudrasBooks.Utility", "RudrasBooks.Utility\RudrasBooks.Utility.csproj", "{B8CED13F-17DA-4AEF-B6EB-A2B91650107C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RudrasBooks.Utility", "RudrasBooks.Utility\RudrasBooks.Utility.csproj", "{B8CED13F-17DA-4AEF-B6EB-A2B91650107C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

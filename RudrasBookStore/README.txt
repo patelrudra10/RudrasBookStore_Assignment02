@@ -90,6 +90,25 @@ Added Default Migration named "RudrasBooks.DataAccess.Migrations.AddDefaultIdeni
 After adding thr Migration in .DataAccess Project I reviewed it, and run my application and its running.
 Completed first section of part 02.
 
+1800
+Created Repository folder and inside it a new folder named IRepository folder inside the migrations and modified according to Andrew's instructions
+Added new interface in IRepository folder named "IRepository.cs"
+1805
+Modified according to Andrew's instructions
+1810
+Started implementing the class and the repository
+1813
+Modified the code to create constructors and DI
+1825
+Created individual Repos for category named as Category.cs and ICategory.cs
+1830
+Modified the Category Repository
+Also Modified ICategory interface according to Andrew.
+1835
+After modifying builded my project and there is no error.
+1840
+Added UnitOfWork for multiple repos
+Added a new interface named ISP_Call.cs that extends IDisposable.
 
 
 
