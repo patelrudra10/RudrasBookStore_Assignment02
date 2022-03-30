@@ -109,6 +109,14 @@ After modifying builded my project and there is no error.
 1840
 Added UnitOfWork for multiple repos
 Added a new interface named ISP_Call.cs that extends IDisposable.
+1850 
+Buileded my application and its run
+1852
+Added MVC controller in Admins folder and named it as CategoryController.cs
+Modified the CategoryController.cs as per Andrews Instructions
+Added Index View in that folder.
+1855
+Application runs perfectly
 
 
 
