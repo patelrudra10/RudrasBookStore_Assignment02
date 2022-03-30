@@ -117,6 +117,28 @@ Modified the CategoryController.cs as per Andrews Instructions
 Added Index View in that folder.
 1855
 Application runs perfectly
+In the Layout.cshtml I added Category link in DropDown menu
+Reviewed the changes and it runs
 
+2022-03-30
+
+1100
+Added category.js in Main project and added the modified it as per Andrew
+1110
+Added Delete and Edit Button using the Upsert Action
+1115 
+Created the partial view for edit and delete  named as _CreateAndBackToList.cshtml
+Created the partial view  named as _EditAndBackToListButton and modified it as Andrew
+1125
+Added Upsert POST action method in CategoryController.cs
+Modified the categoryController.cs as per Andrew's instructions
+1140
+Finally it runs
+1145
+Added the Delete function so we can delete the category and wrote down the code in category.js file
+1230
+Finally it runs.
+I completed my part 02 of assignment 02
+ 
 
 
