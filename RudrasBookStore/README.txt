@@ -79,5 +79,17 @@ Modified the ViewStart.cshtml as per instructed by Andrew.
 1351
 I ran the application and horrah it works
 
+2022-03-29
+PART-02 started
+
+0930
+Started reviewing the appsettings.json file and change the database as per instructed by Andrew.
+0934
+Added Default Migration named "RudrasBooks.DataAccess.Migrations.AddDefaultIdenityMigration"
+0939
+After adding thr Migration in .DataAccess Project I reviewed it, and run my application and its running.
+Completed first section of part 02.
+
+
 
 
