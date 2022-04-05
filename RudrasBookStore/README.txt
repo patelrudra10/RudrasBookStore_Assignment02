@@ -170,5 +170,3 @@ Builded the project and started running it.
 1320
 Hoorah it works.
 Completed 3.1
-1528
-Goodafternoon
