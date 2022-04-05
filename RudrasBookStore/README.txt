@@ -79,6 +79,7 @@ Modified the ViewStart.cshtml as per instructed by Andrew.
 1351
 I ran the application and horrah it works
 
+*********************
 2022-03-29
 PART-02 started
 
@@ -139,6 +140,39 @@ Added the Delete function so we can delete the category and wrote down the code 
 1230
 Finally it runs.
 I completed my part 02 of assignment 02
+
+*********************
+2022-04-05
+PART-03 Started
+
+1200 
+Started part 03 of assignment 02 
+1200
+Added CoverType CRUD same as we did with Category.
+1210
+Added CoverTypeRepository and ICoverTypeRepository in at their respective place.
+1225
+Added migration of CoverType to Database and updated the database.
+1235
+Modified UnitOfWork and IUnitOfWork by adding some relations to CoverType.
+1240
+Added a new controller in Admin named as CoverTypeController same as Category.
+1250
+Added Views for CoverType in Admin named as CvUpsert and Index
+1255
+Modified the views as we did with the views of Category.
+1300
+Added javascript file so it can delete the added item from the table.
+1310 
+Modified the Layout.cshtml and added CoverType in Dropdown menu
+1315
+Builded the project and started running it.
+1320
+Hoorah it works.
+Completed 3.1
+
+
+
  
 
 
