@@ -179,3 +179,39 @@ Added class named Product in Models projects
 Added refrence of Product class in DbContext file.
 1542
 Added migrations of product class in the migrations folder named "20220405194352_AddProductToDb"
+1545
+Checked that the product shows in SOE.
+1550
+Modified the product class as required fields of Title, ISBN and Author.
+1555
+Added Product in the repository.
+1600
+Added an interface named IProductRepository in IRepository
+1610
+Getting Error in Product class.
+Started trying to solve.
+Got bored might start my project later.
+1820
+Started workign on error.
+1830
+It was my silly syntax mistake.
+1835
+Modified the UnitOfWOrk and IUnitOfWork.
+1840
+Builded my project and it runs
+1850
+Added ProductController in Admin>Controller.
+1900
+Created ProductVM in ViewModel in Models Project.
+1910
+Added Microsoft.AspNetCore.Mvc.ViewFeatures package in Models project.
+1920
+Modified the ProductController as per Andrew's Instructions.
+1930
+Added Index View in Areas>Admin>Views Folder.
+1940
+Created a javascript file named product.js and copied it from category.js and modified it as per requirements.
+1945
+Modified the Layout.cshtml and added a new link for product.
+1950
+App runs successfully.
