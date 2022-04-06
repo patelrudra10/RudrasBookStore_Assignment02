@@ -1,18 +1,18 @@
-﻿using RudrasBooks.DataAccess.Repository;
-using RudrasBooks.DataAccess.Repository.IRepository;
+﻿using RudrasBooks.DataAccess.Repository.IRepository;
 using RudrasBooks.Models;
 using RudrasBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 
 namespace RudrasBooks.DataAccess.Repository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
+
         public CategoryRepository(ApplicationDbContext db) : base(db)
         {
             _db = db;
@@ -20,12 +20,14 @@ namespace RudrasBooks.DataAccess.Repository
 
         public void Update(Category category)
         {
-            var objFromDb = _db.CoverTypes.FirstOrDefault(s => s.Id == category.Id);
+            // use .NET LINQ to retrieve the first or default category object
+            // then pass the id as a generic entity which matches the Category ID
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
-                _db.SaveChanges();
             }
+
         }
     }
 }
