@@ -170,3 +170,12 @@ Builded the project and started running it.
 1320
 Hoorah it works.
 Completed 3.1
+Got some problem and can't push to GitHub
+1530
+Solved the problem and finally I pushed it.
+1535 
+Added class named Product in Models projects
+1540
+Added refrence of Product class in DbContext file.
+1542
+Added migrations of product class in the migrations folder named "20220405194352_AddProductToDb"
