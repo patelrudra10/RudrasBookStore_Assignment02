@@ -191,27 +191,40 @@ Added an interface named IProductRepository in IRepository
 Getting Error in Product class.
 Started trying to solve.
 Got bored might start my project later.
-1820
+2120
 Started workign on error.
-1830
+2130
 It was my silly syntax mistake.
-1835
+2135
 Modified the UnitOfWOrk and IUnitOfWork.
-1840
+2140
 Builded my project and it runs
-1850
+2150
 Added ProductController in Admin>Controller.
-1900
+2200
 Created ProductVM in ViewModel in Models Project.
-1910
+2210
 Added Microsoft.AspNetCore.Mvc.ViewFeatures package in Models project.
-1920
+2220
 Modified the ProductController as per Andrew's Instructions.
-1930
+2230
 Added Index View in Areas>Admin>Views Folder.
-1940
+2240
 Created a javascript file named product.js and copied it from category.js and modified it as per requirements.
-1945
+2245
 Modified the Layout.cshtml and added a new link for product.
-1950
+2250
 App runs successfully.
+2300 
+Added Upsert View for Product(it was provided by Andrew)
+2310
+Modified it as per Andrews's Instructions.
+2315
+Getting Error page doesn't resposnd as it should be.
+2330
+Solved but still it is not getting expected output.
+Still it doesn't matter because Andrew only asks to show him till only section 02
+2340
+Posting my work to Github
+
+

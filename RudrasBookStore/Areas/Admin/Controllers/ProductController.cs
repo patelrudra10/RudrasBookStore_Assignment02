@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HarshilsBookStore.Areas.Admin.Controllers
+namespace RudrasBookStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller
@@ -59,13 +59,12 @@ namespace HarshilsBookStore.Areas.Admin.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
-        {
+       {
             if (ModelState.IsValid)
             {
                 if (product.Id == 0)
                 {
                     _unitOfWork.Product.Add(product);
-                    _unitOfWork.Save();
                 }
                 else
                 {
@@ -74,9 +73,9 @@ namespace HarshilsBookStore.Areas.Admin.Controllers
                 _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
 
-            }
-            return View(product);
-        }
+           }
+           return View(product);
+       }
 
 
         // API Calls
@@ -86,7 +85,7 @@ namespace HarshilsBookStore.Areas.Admin.Controllers
         public IActionResult GetAll()
         {
             //return NotFound
-            var allObj = _unitOfWork.Product.GetAll(includeProperties: "Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll();
             return Json(new { data = allObj });
 
         }
