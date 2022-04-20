@@ -10,8 +10,8 @@ using RudrasBookStore.DataAccess.Data;
 namespace RudrasBooks.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220406012419_addProductToDb")]
-    partial class addProductToDb
+    [Migration("20220420142625_AddCategoryToDb")]
+    partial class AddCategoryToDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

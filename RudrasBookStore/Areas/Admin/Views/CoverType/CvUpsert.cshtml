@@ -1,4 +1,4 @@
-﻿@model RudrasBooks.Models.CoverType;
+﻿@model RudrasBooks.Models.CoverType
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,10 +10,11 @@
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         @if (Model.Id != 0)
         {
+            // edit
             title = "Edit Cover Type";
         }
         <div class="col-12 border-bottom">
-            <h2 class="text-primary">TITLE</h2>
+            <h2 class="text-primary">@title</h2>
         </div>
         <div class="col-8 pt-4">
             <div class="form-group row">
@@ -34,7 +35,6 @@
                     else
                     {
                         <partial name="_CreateAndBackToListButton" />
-
                     }
                 </div>
             </div>
@@ -42,7 +42,6 @@
     </div>
 </form>
 
-@section Scripts {
+@section Scripts{
     <partial name="_ValidationScriptsPartial" />
 }
-
