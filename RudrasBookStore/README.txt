@@ -227,4 +227,25 @@ Still it doesn't matter because Andrew only asks to show him till only section 0
 2340
 Posting my work to Github
 
+*********************
+2022-04-19
+PART-04 Started
 
+2000
+My table was already getting the data so I started adding migrations for adding product
+Getting  error when I am adding migrations
+2100
+Not getting what to do bcz getting error when I am adding new migrations
+2145
+Tired of getting error, I will start again tommorror morning
+
+2022-04-20
+Started my project making from part 03
+Started making it again
+Added migartions
+Getting errors
+I solved by adding the migrations as a new cup of tea.
+1040 
+Finally it is running
+It didn't shows details
+But I did it!
